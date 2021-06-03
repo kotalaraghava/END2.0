@@ -30,7 +30,9 @@ When we augmented data for 0th and 2nd class and added 500 samples for each clas
 **ocrAUg**: Augmenter that simulates OCR error by random values. For example, OCR may recognize I as 1 incorrectly. Pre-defined OCR mapping is leveraged to replace character by possible OCR error.
 
 **Results and Accuracy**:
+
 ![accuracy curve without augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/without_augmentation.png)
+
 ![accuracy curve with augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/with_augmentation.png)
 
 
