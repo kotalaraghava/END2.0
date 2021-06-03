@@ -9,10 +9,13 @@
 
 <https://pypi.org/project/pytreebank/> The Stanford sentiment analysis dataset is imported from pytreebank 
 
+
+Dataset Vocabulary
 ![Dataset Vocabulary](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/vocabulary.png)
 
 **Model** 
 
+Model Parameters
 ![Model Parameters](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/model_param.png)
 
 **Augmentation**:
@@ -31,8 +34,10 @@ When we augmented data for 0th and 2nd class and added 500 samples for each clas
 
 **Results and Accuracy**:
 
+Accuracy Curve Without Augmentation
 ![accuracy curve without augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/without_augmentation.png)
 
+Accuracy Curve With Augmentation
 ![accuracy curve with augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/with_augmentation.png)
 
 
