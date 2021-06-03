@@ -41,5 +41,10 @@ Accuracy Curve With Augmentation
 ![accuracy curve with augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/with_augmentation.png)
 
 
+Test Results:
+![image](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/test_results.PNG)
+
+
+
 
 
