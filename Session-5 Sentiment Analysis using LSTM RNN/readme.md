@@ -9,11 +9,11 @@
 
 <https://pypi.org/project/pytreebank/> The Stanford sentiment analysis dataset is imported from pytreebank 
 
-![](Aspose.Words.1a859299-94c7-44d3-ade1-0a72db52ddb6.001.png)
+![Dataset Vocabulary](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/vocabulary.png)
 
 **Model** 
 
-![](Aspose.Words.1a859299-94c7-44d3-ade1-0a72db52ddb6.002.png)
+![Model Parameters](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/model_param.png)
 
 **Augmentation**:
 
@@ -21,16 +21,17 @@ When we augmented data for 0th and 2nd class and added 500 samples for each clas
 
 **Back translation**: The sentences are converted to a random language using google translate and converted back to English to get similarly structured sentence.
 
-![](Aspose.Words.1a859299-94c7-44d3-ade1-0a72db52ddb6.003.png)
+![English to german](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/english_german.png)
 
-![](Aspose.Words.1a859299-94c7-44d3-ade1-0a72db52ddb6.004.png)
+![German to english](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/german_to_english.png)
 
 **KeywordAug**: Augmenter that simulates typo error by random values. For example, people may type ‘I’ as ‘o’ incorrectly. One keyword distance is leveraged to replace character by possible keyboard error.
 
 **ocrAUg**: Augmenter that simulates OCR error by random values. For example, OCR may recognize I as 1 incorrectly. Pre-defined OCR mapping is leveraged to replace character by possible OCR error.
 
 **Results and Accuracy**:
-
+![accuracy curve without augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/without_augmentation.png)
+![accuracy curve with augmentation](https://github.com/JahnaviRamagiri/END2.0/blob/main/Session-5%20Sentiment%20Analysis%20using%20LSTM%20RNN/images/with_augmentation.png)
 
 
 
